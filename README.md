@@ -38,6 +38,10 @@ In this step, we need the following libraries which will be installed with `npm`
 - React Icons: `npm install react-icons`
 - UUID (Unique ID Generation) : `npm install uuid`
 
+> **Important** : *it is possible to make installation through one command:* `npm install bootstrap react-bootstrap react-icons uuid`
+
+In order to debug the application, it is recommanded to use the web browser extension **React Developer Tools** (*available for* **Google Chrome**, **Mozilla Firefox** and **Microsoft Edge**).
+
 #### 2. Goals
 
 In this steps, we have to achieve the following goals: 
@@ -47,6 +51,10 @@ In this steps, we have to achieve the following goals:
 3. Implement the different actions
 
 #### 3. Result
+
+Below a demonstration:
+
+![demo with ScreenToGif](demo.gif)
 
 ### Navigation
 
