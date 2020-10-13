@@ -78,6 +78,8 @@ In this steps, we have to achieve the following goals:
 
 Below a demonstration:
 
+![demo with ScreenToGif](demo2.gif)
+
 ### Data Management
 
 *TBD*
