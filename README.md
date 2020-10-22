@@ -105,6 +105,21 @@ The apparent result is the same as previous with an optimized data management wi
 
 ### REST API Integration
 
+In this step, we need the following libraries which will be installed with `npm` or `yarn`: 
+
+- Redux Thunk (middleware): `npm install redux-thunk`
+- Axios (http client): `npm install axios`
+
+#### 2. Goals
+
+In this steps, we have to achieve the following goals: 
+
+1. Add *Redux Thunk* to the *store*
+1. Modify the actions creators to support *asynchronous http* requests
+1. Use of *Hooks* `useEffect` and `useState`
+
+#### 3. Result
+
 *TBD*
 
 ## License
