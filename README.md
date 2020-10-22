@@ -82,7 +82,26 @@ Below a demonstration:
 
 ### Data Management
 
-*TBD*
+#### 1. Requirements 
+
+In this step, we need the following libraries which will be installed with `npm` or `yarn`: 
+
+- Redux (with its react integration): `npm install redux react-redux`
+
+In order to debug the application, it is recommanded to use the web browser extension **Redux DevTools** (*available for* **Google Chrome**, **Mozilla Firefox** and **Microsoft Edge**).
+
+#### 2. Goals
+
+In this steps, we have to achieve the following goals: 
+
+1. Configure *Redux* and *Redux DevTools*
+1. Create and configure the *store*
+1. Add *action creators* and *reducers*
+1. Connect the components to the store and action creators
+
+#### 3. Result
+
+The apparent result is the same as previous with an optimized data management with Redux. 
 
 ### REST API Integration
 
