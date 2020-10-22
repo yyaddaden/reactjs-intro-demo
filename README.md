@@ -110,7 +110,21 @@ In this step, we need the following libraries which will be installed with `npm`
 - Redux Thunk (middleware): `npm install redux-thunk`
 - Axios (http client): `npm install axios`
 
-#### 2. Goals
+The **REST API** is available in : `https://yyacine.pythonanywhere.com/tasks/<user_key>`. 
+
+The `<user_key>` is required to have access to the **REST API**.
+
+#### 2. REST API Guide
+
+| URL | Method | Data | Description |
+| --- | --- | --- | --- |
+| `/tasks` | **GET** | None | *Return all the tasks* |
+| `/tasks/<task_id>` | **GET** | None | *Return task with specific ID* |
+| `/tasks/<task_id>` | **DELETE** | None | *Remove task with specific ID* |
+| `/tasks/<task_id>` | **PATCH** | One or several data | *Update task with specific ID* |
+| `/tasks` | **POST** | `{ title: (string), code: (string), status: (boolean) }` | *Add a new task* |
+
+#### 3. Goals
 
 In this steps, we have to achieve the following goals: 
 
@@ -118,7 +132,7 @@ In this steps, we have to achieve the following goals:
 1. Modify the actions creators to support *asynchronous http* requests
 1. Use of *Hooks* `useEffect` and `useState`
 
-#### 3. Result
+#### 4. Result
 
 *TBD*
 
