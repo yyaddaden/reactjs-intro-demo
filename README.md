@@ -105,6 +105,8 @@ The apparent result is the same as previous with an optimized data management wi
 
 ### REST API Integration
 
+#### 1. Requirements 
+
 In this step, we need the following libraries which will be installed with `npm` or `yarn`: 
 
 - Redux Thunk (middleware): `npm install redux-thunk`
@@ -129,12 +131,14 @@ The `<user_key>` is required to have access to the **REST API**.
 In this steps, we have to achieve the following goals: 
 
 1. Add *Redux Thunk* to the *store*
-1. Modify the actions creators to support *asynchronous http* requests
-1. Use of *Hooks* `useEffect` and `useState`
+1. Modify the action creators to support *asynchronous http* requests
+1. Use the *Hooks* `useEffect()` and `useState()`
 
 #### 4. Result
 
-*TBD*
+Below a demonstration:
+
+![demo with ScreenToGif](demo3.gif)
 
 ## License
 
