@@ -124,7 +124,7 @@ The `<user_key>` is required to have access to the **REST API**.
 | `/tasks/<task_id>` | **GET** | None | *Return task with specific ID* |
 | `/tasks/<task_id>` | **DELETE** | None | *Remove task with specific ID* |
 | `/tasks/<task_id>` | **PATCH** | One or several data | *Update task with specific ID* |
-| `/tasks` | **POST** | `{ title: (string), code: (string), status: (boolean) }` | *Add a new task* |
+| `/tasks` | **POST** | { `title: (string)`, <br/>`code: (string)`, <br/>`status: (boolean)` } | *Add a new task* |
 
 #### 3. Goals
 
