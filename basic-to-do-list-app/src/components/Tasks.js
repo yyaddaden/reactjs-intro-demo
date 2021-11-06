@@ -7,7 +7,7 @@ const Tasks = (props) => {
       <Task
         removeTask={props.removeTask}
         completeTask={props.completeTask}
-        key={task.id}
+        // key={task.id}
         task={task}
       />
     );
